@@ -95,7 +95,10 @@ ssh-keygen -t ed25519 -C "eugen.risling@stud.thga.de"
 /home/eugen/.ssh/id_ed25519.pub
 
 # 3) Your written explanation (3–5 sentences) of the signature process
-The command creates a key pair (private and public). This is done in the ed25519 code. You'll be asked for the storage location and whether you want to enter a passphrase. The key is then created. The key consists of numbers and digits, such as the email address. A random art image is also created.
+The command creates a key pair (private and public). This is done in the ed25519 code.
+You'll be asked for the storage location and whether you want to enter a passphrase.
+The key is then created. The key consists of numbers and digits, such as the email address.
+ A random art image is also created.
 
 ---
 
