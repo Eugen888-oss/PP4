@@ -56,7 +56,10 @@ In this exercise you will:
 
 ```bash
 # 1) The exact ssh command you ran
+I haven't been able to get a remote machine working. But the command would look like this:
+ssh eugen@myremotehost
 # 2) A detailed, step-by-step explanation of what happened at each stage
+
 ```
 
 ---
@@ -85,9 +88,14 @@ In this exercise you will:
 
 ```bash
 # 1) The ssh-keygen command you ran
+ssh-keygen -t ed25519 -C "eugen.risling@stud.thga.de"
+
 # 2) The file paths of the generated keys
+/home/eugen/.ssh/id_ed25519
+/home/eugen/.ssh/id_ed25519.pub
+
 # 3) Your written explanation (3–5 sentences) of the signature process
-```
+The command creates a key pair (private and public). This is done in the ed25519 code. You'll be asked for the storage location and whether you want to enter a passphrase. The key is then created. The key consists of numbers and digits, such as the email address. A random art image is also created.
 
 ---
 
