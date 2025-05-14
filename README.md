@@ -130,15 +130,27 @@ The key is then created. The key consists of numbers and digits, such as the ema
 4. Explain:
 
    * How SSH reads `~/.ssh/config` and matches hosts.
+     The name is searched for.
    * The difference between `HostName` and `Host`.
+     Hostname is the name for a computer in a network, a host is just a aliases name.
    * How aliases prevent long commands.
+     The aliases are shortcuts for long commands.
 
 **Provide:**
 
 ```text
 # 1) The full contents of your ~/.ssh/config
+Host my-remote
+               HostName remote.example.com
+               User eugen
+               IdentityFile ~/.ssh/id_ed25519
+
 # 2) A short explanation (3–4 sentences) of how the config simplifies connections
-```
+The SSH file stores the parameters necessary for connecting to a host.
+For example, the path to the SSH key is stored here.
+It also contains information about the username, host address, and port.
+This file eliminates the need to enter anything separately when connecting;
+it is read automatically from the config file.
 
 ---
 
