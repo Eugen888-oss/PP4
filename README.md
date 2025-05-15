@@ -56,11 +56,18 @@ In this exercise you will:
 
 ```bash
 # 1) The exact ssh command you ran
-I haven't been able to get a remote machine working. But the command would look like this:
-ssh eugen@myremotehost
-# 2) A detailed, step-by-step explanation of what happened at each stage
+ssh user11@128.140.85.215
 
-```
+# 2) A detailed, step-by-step explanation of what happened at each stage
+user11@128.140.85.215's password:
+Linux vorlesung 6.1.0-21-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.90-1 (2024-05-03) x86_64
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu May 15 15:24:20 2025 from 195.37.6.6
 
 ---
 
