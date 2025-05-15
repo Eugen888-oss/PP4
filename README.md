@@ -193,7 +193,10 @@ it is read automatically from the config file.
 
 ```bash
 # 1) Each scp command you ran
+scp ~/eugen1.txt user11@128.140.85.215:~/
+
 # 2) Any flags or options used
+
 # 3) A brief explanation (2–3 sentences) of scp’s mechanism
 ```
 
